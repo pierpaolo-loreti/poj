@@ -9,6 +9,8 @@ import java.io.IOException;
 import java.io.InputStreamReader;
 import java.io.PrintWriter;
 import java.util.ArrayList;
+import java.util.Collection;
+import java.util.Collections;
 import java.util.Iterator;
 
 public class Piano {
@@ -45,6 +47,13 @@ public class Piano {
 				pw.println(punti3.get(i));
 			}
 			pw.close();
+			
+			//Selezionatore.rimuoviLontani(punti);
+			System.out.println(punti);
+			//ArrayList<Punto> pp = punti;
+			Collections.sort(punti);
+			System.out.println(punti);
+			
 			
 		} catch (FileNotFoundException e) {
 			// TODO Auto-generated catch block

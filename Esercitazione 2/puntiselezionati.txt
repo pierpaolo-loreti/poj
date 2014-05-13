@@ -1,2 +1,2 @@
-Punto [x=2.1, y=4.3] poj.esrc2.Punto@13883d5f
-Punto [x=3.0, y=2.9] poj.esrc2.Punto@557531fd
+Punto [x=2.1, y=4.3] S=4.78539444560216
+Punto [x=3.0, y=2.9] S=4.172529209005013

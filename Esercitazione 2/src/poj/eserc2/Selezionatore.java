@@ -1,6 +1,7 @@
 package poj.eserc2;
 
 import java.util.ArrayList;
+import java.util.Iterator;
 
 public class Selezionatore {
 
@@ -38,4 +39,30 @@ public class Selezionatore {
 		return ret;
 
 	}
+	
+	public static void rimuoviLontani(ArrayList al){
+		
+		Iterator it = al.iterator();
+		
+		while (it.hasNext()) {
+			Punto p = (Punto) it.next();
+			if(p.distanzaDallOrigine()>5){
+				it.remove();
+			}
+			
+		}
+		
+	}
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
 }
