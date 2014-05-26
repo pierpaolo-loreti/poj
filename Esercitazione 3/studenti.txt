@@ -1,0 +1,9 @@
+riccardo,paolillo,0075448
+michele,orru,0075320
+pierpaolo,loreti,1638881
+alexandro,catini,9902803
+pierpaolo,loreti,1638881
+claudio,pisa,1232993
+lorenzo,bracciale,0988733
+alexandro,catini,9902803
+marco,bonola,0987652
